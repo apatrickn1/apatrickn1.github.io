@@ -1,0 +1,77 @@
+body {
+    background-color: skyblue;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+    background-repeat: no-repeat;
+    color: blue;
+}
+ul {
+    list-style-image: url("images/marker.gif");
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+}
+h2 {
+    padding-left: 70px;
+}
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h3 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+header{
+    background-color: dodgerblue;
+}
+div {
+    text-align: center;
+}
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-color:lightskyblue;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th {
+    color: black;
+    padding: .5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+td {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+form{
+    padding: 20px;
+}
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+nav a {
+    transition: background-color 2s linear;
+}
+nav a:hover {
+    background-color: skyblue;
+}
